@@ -153,6 +153,7 @@ public class TesterRunigram {
         if (flipped == null || res == null) {
             return false;
         }
+
         boolean res1 = compareImages(flipped, res);
 
         flipped = Runigram.grayScaled(safeRead("cake.ppm"));
@@ -233,7 +234,11 @@ public class TesterRunigram {
             return false;
         }
         boolean res5 = compareImages(blended, res);
-        
+        System.out.println(res1);
+        System.out.println(res2);
+        System.out.println(res3);
+        System.out.println(res4);
+        System.out.println(res5);
         return res1 && res2 && res3 && res4 && res5;
     }
 
