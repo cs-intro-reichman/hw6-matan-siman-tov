@@ -153,7 +153,6 @@ public class TesterRunigram {
         if (flipped == null || res == null) {
             return false;
         }
-
         boolean res1 = compareImages(flipped, res);
 
         flipped = Runigram.grayScaled(safeRead("cake.ppm"));
