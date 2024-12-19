@@ -234,7 +234,6 @@ public class TesterRunigram {
             return false;
         }
         boolean res5 = compareImages(blended, res);
-        
         return res1 && res2 && res3 && res4 && res5;
     }
 
